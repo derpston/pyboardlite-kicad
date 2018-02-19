@@ -1,4 +1,4 @@
-update=Sunday 18 February 2018 'pmt' 16:44:24
+update=Monday 19 February 2018 'amt' 00:36:32
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/scratch/sync/src/embedded/kicad/lib/custom
-LibName31=/Users/user/Desktop/faff
+LibName30=/scratch/sync/src/embedded/kicad/lib/derplib/derp
