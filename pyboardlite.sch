@@ -673,7 +673,7 @@ U 1 1 5A8A2FFE
 P 5700 1350
 F 0 "D1" H 5700 1450 50  0000 C CNN
 F 1 "D_Schottky" H 5700 1250 50  0000 C CNN
-F 2 "" H 5700 1350 50  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5700 1350 50  0001 C CNN
 F 3 "" H 5700 1350 50  0001 C CNN
 	1    5700 1350
 	-1   0    0    1   
@@ -765,9 +765,9 @@ Wire Wire Line
 	6400 1450 6400 1550
 Wire Wire Line
 	6400 1550 6700 1550
-Text Label 7200 1550 0    60   ~ 0
-SWCLK
 Text Label 7200 1650 0    60   ~ 0
+SWCLK
+Text Label 7200 1550 0    60   ~ 0
 SWDIO
 Text Label 7200 1750 0    60   ~ 0
 NRST
@@ -776,16 +776,16 @@ NRST
 Wire Wire Line
 	1100 3100 1250 3100
 Connection ~ 1250 3100
+NoConn ~ 6700 1750
 $Comp
-L Conn_02x03_Top_Bottom J2
-U 1 1 5A8B7B45
+L Conn_02x03_Odd_Even J2
+U 1 1 5A8B8A68
 P 6900 1650
 F 0 "J2" H 6950 1850 50  0000 C CNN
-F 1 "Conn_02x03_Top_Bottom" H 6950 1450 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 6950 1450 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch1.27mm_SMD" H 6900 1650 50  0001 C CNN
 F 3 "" H 6900 1650 50  0001 C CNN
 	1    6900 1650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6700 1750
 $EndSCHEMATC
