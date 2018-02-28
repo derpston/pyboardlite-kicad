@@ -1,4 +1,4 @@
-update=Monday 19 February 2018 'amt' 00:36:32
+update=Thursday 22 February 2018 'pmt' 20:54:25
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/scratch/sync/src/embedded/kicad/lib/derplib/derp
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
